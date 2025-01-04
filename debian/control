@@ -1,10 +1,14 @@
-Package: hid-mapper
+Source: hid-mapper
 Version: 2.0.1
+Section: misc
+Priority: optional
+Maintainer: Sylvain Leroux <sylvain@chicoree.fr>
+
+Package: hid-mapper
 Section: misc
 Priority: optional
 Architecture: amd64
 Depends: libc6 (>= 2.11.3)
-Maintainer: Sylvain Leroux <sylvain@chicoree.fr>
 Description: HID event mapper
  Developed to map USB HID IR remote to keyboard events.
  Should work with any USB HID device.
